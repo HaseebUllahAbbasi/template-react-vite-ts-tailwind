@@ -53,4 +53,10 @@ In the project directory, you can run the following scripts:
   
   <b> npm run build </b>: Builds the application for production.
   
-  <b>npm run serve </b>: Serves the production build locally for testing.
+  <b>npm run build:docker </b>: Serves the production build locally for testing.
+  
+## Additional Commands
+
+- docker run -d id
+- docker run -d name  
+- docker run -p 5173:5173 -d frontend
